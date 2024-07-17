@@ -7,12 +7,26 @@
         "Fixed Damage": 1 // 1x strength
     },
     {
+        "Skill": "Phenomenal Flaming Axe 1 Lv.5",
+        "Units": ["Lisanaut Covenant - Cronus"],
+        "Targets": 2, // 4 times but Repeat if unit dies
+        "Regular Damage": 6.7, // (5/6*6.2)+(1/6*(6.2*1.5))
+        "Fixed Damage": 2.6 // (2/6*2)+(4/6*(2*1.5))
+    },
+    {
         "Skill": "Warrior Princess's Fan",
         "Units": ["Ascalon Light Bladegood"],
         "Targets": 6, // 4 times but Repeat if unit dies
         "Regular Damage": 3.7, // (2/6*2.8)+(4/6*(2.8*1.5))
         "Fixed Damage": 2.6 // (2/6*2)+(4/6*(2*1.5))
     },
+    {
+        "Skill": "Vivid blooming Flower II Lv. 5",
+        "Units": ["Freikugel Camoflague"],
+        "Targets": 6, // 4 times but Repeat if unit dies
+        "Regular Damage": 4.55, // (5/6*4.2)+(1/6*(4.2*1.5)) Ice unit 1.5
+        "Fixed Damage": 1.3 // (5/6*1.2)+(1/6*(1.2*1.5)) - 1200% of remaining SP not sure how to change this to fixed damage assuming 120%
+    },    
     {
         "Skill": "Warrior Princess's Grace",
         "Units": ["Avarice Swimsuit ver."],
