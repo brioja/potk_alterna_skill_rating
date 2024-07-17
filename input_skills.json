@@ -1,0 +1,24 @@
+[
+    {
+        "Skill": "Summer Paradise's Eternal Flame",
+        "Units": ["Lisanaut - Shackled - Cronus Swimsuit"],
+        "Targets": 3,
+        "Regular Damage":  3.4, // 3.2, If wind unit 1.5 times damage (1/6×4.8)+(5/6×3.2)
+        "Fixed Damage": 1 // 1x strength
+    },
+    {
+        "Skill": "Warrior Princess's Fan",
+        "Units": ["Ascalon Light Bladegood"],
+        "Targets": 6, // 4 times but Repeat if unit dies
+        "Regular Damage": 3.7, // (2/6*2.8)+(4/6*(2.8*1.5))
+        "Fixed Damage": 2.6 // (2/6*2)+(4/6*(2*1.5))
+    },
+    {
+        "Skill": "Warrior Princess's Grace",
+        "Units": ["Avarice Swimsuit ver."],
+        "Targets": 6, // 4 times but Repeat if unit dies
+        "Regular Damage": 4.6, // (2/6*2.8)+(4/6*(2.8*2))
+        "Fixed Damage": 3.3 // (2/6*2)+(4/6*(2*2))
+    }
+    
+]
