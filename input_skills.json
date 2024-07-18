@@ -33,6 +33,47 @@
         "Targets": 6, // 4 times but Repeat if unit dies
         "Regular Damage": 4.6, // (2/6*2.8)+(4/6*(2.8*2))
         "Fixed Damage": 3.3 // (2/6*2)+(4/6*(2*2))
+    },
+    {
+        "Skill": "Sunburst Bubble Bullet 1 Lv. 5",
+        "Units": ["Solomon Sacred Chain - Athena Swimsuit ver."],
+        "Targets": 4.5, // 3 enemies, but repeats on crit
+        "Regular Damage": 4.77, // (5/6*4.4)+(1/6*(4.4*1.5)) If dark 1.5 multiplier
+        "Fixed Damage": 0 // (2/6*2)+(4/6*(2*2))
+    },
+    {
+        "Skill": "Break Shot 1 Lv.4",
+        "Units": ["Solomon Sacred Chain - Athena Swimsuit ver."],
+        "Targets": 4.5, // 3 enemies, but repeats if noone withdaws
+        "Regular Damage": 4.1, // 
+        "Fixed Damage": 0 // (2/6*2)+(4/6*(2*2))
+    },
+    {
+        "Skill": "Shining Ray II Lv.4",
+        "Units": ["Solomon Sacred Chain - Athena Swimsuit ver."],
+        "Targets": 3, // 3 enemies
+        "Regular Damage": 7, // (5/6*4)+(1/6*(4*1.5)) + 8/3 - If dark 1.5 multiplier, 800 single enemy if crit so divide by targets
+        "Fixed Damage": 1 // (2/6*2)+(4/6*(2*2))
+    },
+    {
+        "Skill": "Holy Wave 1 Lv. 4",
+        "Units": ["Solomon Sacred Chain - Athena Swimsuit ver."],
+        "Targets": 1, // 1 enemy
+        "Regular Damage": 10.12, // (5/6*6.6)+(1/6*(6.6*1.5))*2.8 // randomly does 60% of total damage to 3 enemies as well 
+        "Fixed Damage": 0 // (2/6*2)+(4/6*(2*2))
+    },
+    {
+        "Skill": "Suprise Fire I Lv. 4",
+        "Units": ["Solomon Sacred Chain - Athena Swimsuit ver."],
+        "Targets": 1, // 1 enemy
+        "Regular Damage": 19, // It's 2000% if bow staff which is really likely
+        "Fixed Damage": 3 // (2/6*2)+(4/6*(2*2))
+    },
+    {
+        "Skill": "Roaring Onslaught I Lv. 4",
+        "Units": ["Solomon Sacred Chain - Athena Swimsuit ver."],
+        "Targets": 3, // 1 enemy
+        "Regular Damage": 5.2, // 
+        "Fixed Damage": 0 // 
     }
-    
 ]
